@@ -1,0 +1,8 @@
+
+			<?php
+				$file = "name.txt";
+				if (!feof($file))
+					echo "End of file";
+				
+			?>
+

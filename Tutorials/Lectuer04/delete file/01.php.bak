@@ -1,0 +1,4 @@
+	<?php
+		$my_file = "temp.txt";
+		unlink($my_file);
+	?>
