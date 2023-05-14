@@ -1,0 +1,75 @@
+body {
+background-color: #008080;
+}
+
+img.img01{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+}
+
+table,tr,th,td{
+    background-color:#21AEA8;
+    border: 1px solid orangered;
+    border-collapse: collapse;
+  
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+th{
+    color: orangered;
+  
+}
+
+#p01{
+    color: black;
+
+}
+
+#p05{
+    color: black;
+    margin-left: 220%;
+}
+
+#bt01{
+    text-align: center;
+}
+
+
+#img02{
+    
+    width: 300px;
+    height: 300px;
+}
+
+#img04{
+    
+    margin-left: 34.3%;
+}
+
+#img07{
+    
+    margin-left: 50%;
+    margin-top:-3%;
+}
+
+#p044{
+   padding-right: 80%;
+    color: black;
+  
+}
+

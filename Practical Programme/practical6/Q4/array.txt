@@ -1,0 +1,21 @@
+Array
+(
+    [0] => 1
+    [1] => 2
+    [2] => Array
+        (
+            [0] => 5
+            [1] => 10
+            [2] => 15
+            [3] => 20
+        )
+
+    [3] => 4
+)
+Array sum is :50
+Array sum is :50
+Array sum is :50
+Array sum is :50
+Array sum is :50
+Array sum is :50
+Array sum is :50

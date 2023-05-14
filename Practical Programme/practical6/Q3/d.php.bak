@@ -1,0 +1,8 @@
+<?php
+
+	$Cfile='fist.txt';
+	unlink($Cfile);
+	
+	echo "your file is deleted !";
+
+?>

@@ -1,0 +1,23 @@
+<?php
+	
+	$GPA= 4.0;
+	
+	if(($GPA>0.0) && ($GPA<2.0)){
+		echo "Fail";
+	}
+	else if(($GPA>=2.0) && ($GPA<3.0)){
+		echo "Pass";
+	}
+	else if(($GPA>=3.0) && ($GPA<3.3)){
+		echo "2"."<sup>"."nd"."</sup>"." Lower";
+	}
+	else if(($GPA>=3.3) && ($GPA<3.7)){
+		echo "2"."<sup>"."nd"."</sup>"." Upper";
+	}
+	else if(($GPA>=3.7) && ($GPA<=4.0)){
+		echo "1"."<sup>"."st"."</sup>"." class";
+	}
+	else {
+		echo "Error";
+	}
+?>

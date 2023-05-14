@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student  Information Form</title>
+
+<style>
+body{
+	background-color:#ffffb3;
+}
+
+h2{
+	text-align:center;
+}
+
+form{
+	border:3px solid black;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:3%;
+	padding-bottom:3%;
+	
+}
+
+.subbb{
+	  background-color: #4CAF50;
+	  border: none;
+	  color: white;
+	  padding: 8px 15px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 13px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	  border-radius: 5px;
+
+}
+
+.ress{
+	  background-color: #f44336;
+	  border: none;
+	  color: white;
+	  padding: 8px 15px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 13px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	  border-radius: 5px;
+
+}
+
+input[type=text]{
+	width:30%;
+	padding:5px;
+	color:#476b6b;
+	background:;
+}
+
+.selectt{
+	
+	width:31.6%;
+	padding-bottom:1%;
+	padding-top:1%;
+}
+
+.addree{
+	color:#476b6b;
+}
+
+
+::selection {
+  color: white;
+  background: #00cc00;
+}
+
+</style>
+</head>
+<body>
+
+	
+	<form action=" "  onsubmit="return myfunction01()">
+	<h2>Student Information Form</h2>
+	
+	Student ID<br>
+	<input type="text" name="stID"  placeholder="TG/2017/231" id="stid" ><br><br>
+	
+	First Name<br>
+	<input type="text" name="fname" id="Fname"><br><br>
+	
+	Last Name<br>
+	<input type="text" name="lname" id="Lname"><br><br>
+	
+	Address<br>
+	<textarea id="addr" class="addree" name="address" rows="5" cols="36.5"></textarea><br><br>
+	
+	Faculty<br>
+	<select name="facultys" id="fac"  size="1" class="selectt">
+		<option value="technology">Technology</option>
+		<option value="science">Science</option>
+		<option value="management">Management</option>
+		<option value="engineering">Engineering</option>
+		<option value="agriculture">Agriculture</option>
+	</select>
+	<br><br>
+	<input type="submit" value="Submit" id="sub" class="subbb" >
+	<input type="reset" value="Reset" id="rst" class="ress">
+	
+	
+	</form>
+	
+	
+	
+	<script src="one.js"></script>
+</body>
+
+</html>

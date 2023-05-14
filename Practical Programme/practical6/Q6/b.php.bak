@@ -1,0 +1,7 @@
+<?php
+
+	$str="Our a";	
+	
+	echo strlen($str);
+
+?>
